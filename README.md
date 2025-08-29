@@ -33,7 +33,7 @@ pip install torch torchvision torchaudio --extra-index-url https://download.pyto
 pip install opencv-python scikit-learn pandas matplotlib numpy imbalanced-learn
 pip install albumentations tqdm timm
 
-🖼 Dataset
+## 🖼 Dataset
 
 The dataset contains bone density images organized in three folders corresponding to the classes:
 Normal, Osteopenia, and Osteoporosis.
@@ -42,7 +42,7 @@ Images are resized and normalized for EfficientNet input.
 
 Data augmentation ensures robust feature extraction.
 
-🚀 Features
+## 🚀 Features
 
 EfficientNet-B3 Backbone: Pretrained on ImageNet, fine-tuned for bone density classification.
 
@@ -58,7 +58,7 @@ Early Stopping: Stops training when validation accuracy does not improve.
 
 Balanced Dataset: Oversampling minority classes for better model generalization.
 
-🏆 Training & Evaluation
+## 🏆 Training & Evaluation
 
 Training:
 
