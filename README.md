@@ -29,8 +29,6 @@ Key features:
 ## 📦 Dependencies
 
 Install via pip:
-
-```bash
 pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu118
 pip install opencv-python scikit-learn pandas matplotlib numpy imbalanced-learn
 pip install albumentations tqdm timm
