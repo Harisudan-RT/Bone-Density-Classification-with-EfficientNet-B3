@@ -1,0 +1,42 @@
+Bone Density Classification with EfficientNet-B3
+
+This project implements a deep learning pipeline for bone density classification using EfficientNet-B3.
+The model classifies medical images into three categories:
+
+1) Normal
+
+2) Osteopenia
+
+3) Osteoporosis
+
+The implementation leverages PyTorch, timm, Albumentations, and advanced training strategies such as label smoothing, oversampling, cosine annealing scheduler, and Test Time Augmentation (TTA) to achieve robust performance.
+
+🚀 Features
+
+Model: EfficientNet-B3 with a custom classification head.
+
+Data Augmentation: Random flips, rotations, noise, blurring, coarse dropout, and normalization.
+
+Imbalanced Data Handling: Uses RandomOverSampler to balance classes.
+
+Loss Functions:
+
+Label Smoothing Cross-Entropy
+
+Weighted Cross-Entropy (Focal-style loss)
+
+Training Optimizations:
+
+Mixed precision training (torch.cuda.amp)
+
+Gradient clipping
+
+Cosine Annealing Learning Rate Scheduler
+
+Early stopping
+
+Evaluation:
+
+Standard validation metrics (Accuracy, F1-Score, Confusion Matrix)
+
+Test Time Augmentation (TTA) for improved robustness
